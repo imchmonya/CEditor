@@ -1,0 +1,42 @@
+prefix: "&5ꜰᴀᴡᴇ &8» &r"
+kit:
+  create:
+    success: "&5ꜰᴀᴡᴇ &8» &r&Вы успешно создали кит!"
+    exists: "&5ꜰᴀᴡᴇ &8» &rТакой кит уже есть!"
+    usage: "&5ꜰᴀᴡᴇ &8» &rИспользуйте: /kit create"
+    no_permission: "&5ꜰᴀᴡᴇ &8» &rУ вас нету прав"
+  delete:
+    success: "&5ꜰᴀᴡᴇ &8» &rВы успешно удалили кит!"
+    not_found: "&5ꜰᴀᴡᴇ &8» &rТакого кита нету!"
+    usage: "&5ꜰᴀᴡᴇ &8» &rИспользуйте: /kit delete"
+    no_permission: "&5ꜰᴀᴡᴇ &8» &rУ вас нету прав!"
+  edit:
+    not_found: "&5ꜰᴀᴡᴇ &8» &rТакого кита нету"
+    usage: "&5ꜰᴀᴡᴇ &8» &rИспользуйте /kit edit <назв>"
+    no_permission: "&5ꜰᴀᴡᴇ &8» &rУ вас нету прав!"
+  give:
+    success_self: "&5ꜰᴀᴡᴇ &8» &rВы получили кит"
+    success_self_personal: "&5ꜰᴀᴡᴇ &8» &rВы получили кит"
+    success_other: "&5ꜰᴀᴡᴇ &8» &rВы получили кит"
+    received: "&5ꜰᴀᴡᴇ &8» &rВы получили кит"
+    not_found: "&5ꜰᴀᴡᴇ &8» &rТакого игрока нету"
+    player_not_found: "&5ꜰᴀᴡᴇ &8» &rТакого игрока нету"
+    usage: "&5ꜰᴀᴡᴇ &8» &rИспользуйте: /kit <назв>"
+    no_permission: "&5ꜰᴀᴡᴇ &8» &rУ вас нету прав"
+    no_space: "&5ꜰᴀᴡᴇ &8» &rУ вас нету места"
+  general:
+    no_permission: "&5ꜰᴀᴡᴇ &8» &rУ вас нету прав"
+    usage: ""
+    commands:
+      create: "&5ꜰᴀᴡᴇ &8» &r"
+      delete: "&5/kit edit <название> &f- редактировать кит"
+      edit: "&5/kit <название> [ник] &f- взять кит"
+      give: ""
+editor:
+  save:
+    success: "&5ꜰᴀᴡᴇ &8» &r&5ꜰᴀᴡᴇ &8» &rУспешно"
+    failed: "&5ꜰᴀᴡᴇ &8» &rНе удалось"
+  reset:
+    success: "&5ꜰᴀᴡᴇ &8» &rУспешно!"
+  close_with_item:
+    error: "&5ꜰᴀᴡᴇ &8» &rНельзя так!"

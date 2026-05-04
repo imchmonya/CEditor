@@ -1,0 +1,22 @@
+name: CEditor
+version: '1.0-SNAPSHOT'
+main: org.cEditor.CEditor
+api-version: '1.21'
+authors: [ _chmonya ]
+commands:
+  kit:
+    usage: /<command> <create|delete|edit> [название]
+    permission: ceditor.kit
+permissions:
+  ceditor.kit:
+    default: true
+  ceditor.kit.create:
+    default: op
+  ceditor.kit.delete:
+    default: op
+  ceditor.kit.edit:
+    default: true
+  ceditor.kit.give:
+    default: true
+  ceditor.kit.*:
+    default: false
